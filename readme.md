@@ -35,7 +35,7 @@ java bench
 
 ### **Rust**
 ```sh
-rustc bench.rs
+rustc -C opt-level=3 bench.rs
 ./bench.exe
 ```
 
